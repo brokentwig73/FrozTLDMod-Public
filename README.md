@@ -16,7 +16,7 @@ Press **Tab** to show or hide a compact HUD built around the game's time-of-day 
 
 The HUD can include:
 
-- A community-style **stick compass**
+- A stick compass
 - Wind direction and wind speed
 - Current and outdoor feels-like temperatures
 - An analog clock
@@ -69,7 +69,7 @@ Optional reticles are available for pistols, rifles, and the flare gun. The pist
 
 ### Light-source life warning
 
-Torch, flare, and lantern life indicators gradually turn red as the light source approaches empty, making it easier to notice before it goes out.
+Torch, flare, and lantern life indicators turn red when light source approaches empty, making it easier to notice before it goes out.
 
 ![Torch life bar and icon turning red near burnout](images/red-light-life-warning.png)
 
@@ -86,7 +86,7 @@ This is not **Place Anywhere** functionality. It does not disable normal placeme
 ### Small fixes that add up
 
 - Control Aurora sound volume for both ambience and electrical crackling sounds.
-- Skip the startup disclaimer sequence through Hinterland's built-in `-skipintro` behavior
+- Skip the startup disclaimer sequence through Hinterland's built-in `-skipintro` command line option
 
 ## Configuration
 
