@@ -1,5 +1,6 @@
 using HarmonyLib;
 using Il2Cpp;
+using Il2CppTLD.Gear;
 using Il2CppTLD.UI.Scroll;
 using System;
 
