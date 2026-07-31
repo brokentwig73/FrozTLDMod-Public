@@ -1,0 +1,57 @@
+{
+  "version": "2",
+  "author": "brokentwig73",
+  "authorURL": "https://github.com/brokentwig73",
+  "supportURL": "https://github.com/brokentwig73/FrozTLDMod-Releases/issues",
+  "mods": [
+    {
+      "type": "mod",
+      "version": "1.0.0",
+      "name": "FrozTLDMod",
+      "displayName": "Froz TLD Mod",
+      "author": "brokentwig73",
+      "previousAuthors": "",
+      "released": "2026-07-29",
+      "updated": "2026-07-30",
+      "downloadURL": "https://github.com/brokentwig73/FrozTLDMod-Releases/releases/latest/download/FrozTLDMod.zip",
+      "modURL": "https://github.com/brokentwig73/FrozTLDMod-Releases",
+      "description": "A configurable collection of quality-of-life improvements for The Long Dark, including a modular survival HUD, smarter fire-starting defaults, remembered tools and weapons, inventory weight displays, weapon reticles, light-source warnings, direct fuel placement, and improved loose-item placement.",
+      "tags": "hud, compass, weather, inventory, fire, reticle, weapons, item placement, quality of life",
+      "categories": [
+        "Quality of Life",
+        "Gameplay",
+        "Utility Mod"
+      ],
+      "gameversion": [
+        "vanilla",
+        "tftft"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/brokentwig73/FrozTLDMod-Releases/main/images/hud-outdoor-overview.jpg",
+        "https://raw.githubusercontent.com/brokentwig73/FrozTLDMod-Releases/main/images/drag-fuel-into-fire.png",
+        "https://raw.githubusercontent.com/brokentwig73/FrozTLDMod-Releases/main/images/item-placement-after.png"
+      ],
+      "dependencies": [
+        "ModSettings"
+      ],
+      "status": {
+        "working": true,
+        "beta": false,
+        "patchnotes": "Initial public release.",
+        "notes": "Download FrozTLDMod.zip and extract the FrozTLDMod folder into The Long Dark's Mods folder.",
+        "issues": ""
+      },
+      "testedon": {
+        "tldversion": "2.55",
+        "mlversion": "0.7.2"
+      },
+      "updater": {
+        "enable": false,
+        "downloads": []
+      },
+      "aliases": [
+        "FrozTLDMod"
+      ]
+    }
+  ]
+}
