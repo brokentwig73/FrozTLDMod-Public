@@ -1,0 +1,20 @@
+﻿# Build output
+bin/
+obj/
+artifacts/
+logs/
+*.log
+
+# User/local machine files
+.vs/
+*.user
+*.suo
+*.rsuser
+
+# Local game/library references
+src/**/GameRefs/*.dll
+!src/**/GameRefs/.gitkeep
+
+# Packages
+packages/
+*.nupkg

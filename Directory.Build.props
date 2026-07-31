@@ -1,0 +1,7 @@
+﻿<Project>
+  <PropertyGroup>
+    <TldGameDir Condition="'$(TldGameDir)' == ''">C:\Program Files (x86)\Steam\steamapps\common\TheLongDark</TldGameDir>
+    <TldMelonLoaderDir>$(TldGameDir)\MelonLoader</TldMelonLoaderDir>
+    <TldInteropDir>$(TldGameDir)\MelonLoader\Il2CppAssemblies</TldInteropDir>
+  </PropertyGroup>
+</Project>

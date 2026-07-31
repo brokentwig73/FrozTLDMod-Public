@@ -127,9 +127,21 @@ Use the [Issues](../../issues) page to report a problem with a published release
 - A short description of what happened
 - The relevant section of `MelonLoader/Latest.log`, when available
 
+## Building from source
+
+The production C# source and embedded HUD assets are included in this repository.
+
+1. Install The Long Dark, MelonLoader, and ModSettings.
+2. Launch the game once so MelonLoader generates its IL2CPP interop assemblies.
+3. Open `FrozTLDMods.slnx` with the .NET 6 SDK installed.
+4. If The Long Dark is installed somewhere other than Steam's default folder, override the `TldGameDir` MSBuild property.
+5. Build the `src/FrozHud/FrozHud.csproj` project.
+
+The compiled DLL and copied `manifest.json` are placed under `src/FrozHud/bin/<configuration>/net6.0`.
+
 ## About this repository
 
-This is the official public download and support repository for Froz TLD Mod. It contains release packages and player documentation; the source code is maintained separately.
+This is the official source, download, documentation, and support repository for Froz TLD Mod. It contains the production mod source and assets used to build published releases.
 
 ## Disclaimer
 
