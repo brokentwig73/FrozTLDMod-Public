@@ -95,6 +95,7 @@ This is not **Place Anywhere** functionality. It does not disable normal placeme
 
 - Control Aurora sound volume for both ambience and electrical crackling sounds.
 - Skip the startup disclaimer sequence through Hinterland's built-in `-skipintro` command line option
+- Fixed AutoWalk for Windows
 
 ## Configuration
 
