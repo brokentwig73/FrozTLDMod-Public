@@ -6,13 +6,13 @@
   "mods": [
     {
       "type": "mod",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "name": "FrozTLDMod",
       "displayName": "Froz TLD Mod",
       "author": "brokentwig73",
       "previousAuthors": "",
       "released": "2026-07-29",
-      "updated": "2026-07-30",
+      "updated": "2026-08-06",
       "downloadURL": "https://github.com/brokentwig73/FrozTLDMod-Public/releases/latest/download/FrozTLDMod.zip",
       "modURL": "https://github.com/brokentwig73/FrozTLDMod-Public",
       "description": "A configurable collection of quality-of-life improvements for The Long Dark, including a modular survival HUD, smarter fire-starting defaults, remembered tools and weapons, inventory weight displays, weapon reticles, light-source warnings, direct fuel placement, and improved loose-item placement.",
@@ -37,7 +37,7 @@
       "status": {
         "working": true,
         "beta": false,
-        "patchnotes": "Initial public release.",
+        "patchnotes": "Fixed AutoWalk for Windows.",
         "notes": "Download FrozTLDMod.zip and extract the FrozTLDMod folder into The Long Dark's Mods folder.",
         "issues": ""
       },
