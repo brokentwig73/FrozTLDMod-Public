@@ -47,6 +47,10 @@
       <HintPath>$(TldInteropDir)\Assembly-CSharp.dll</HintPath>
       <Private>false</Private>
     </Reference>
+    <Reference Include="Il2CppRewired_Core">
+      <HintPath>$(TldInteropDir)\Il2CppRewired_Core.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
     <Reference Include="Il2CppTLD.IntBackedUnit">
       <HintPath>$(TldInteropDir)\Il2CppTLD.IntBackedUnit.dll</HintPath>
       <Private>false</Private>
@@ -73,6 +77,10 @@
     </Reference>
     <Reference Include="UnityEngine.ImageConversionModule">
       <HintPath>$(TldInteropDir)\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>$(TldInteropDir)\UnityEngine.InputLegacyModule.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">

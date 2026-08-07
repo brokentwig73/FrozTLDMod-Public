@@ -138,6 +138,10 @@ namespace FrozTLDMods.FrozTLDMod
         [Description("Fix huge collision boundaries between items when placing, especially on dropped items.")]
         public bool FixPlacementSpacing = true;
 
+        [Name("Fix AutoWalk")]
+        [Description("Fix the AutoWalk not working in Windows")]
+        public bool FixAutoWalk = true;
+
         // Reports whether any custom HUD element requires the overlay controller to run.
         public bool HasEnabledElement()
         {
